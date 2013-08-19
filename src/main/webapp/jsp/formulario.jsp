@@ -9,7 +9,7 @@
 	<body>
 		<s:form action="subirFicheroAction" method="POST" enctype="multipart/form-data">
 	
-			<s:text name='label'/>:<s:file name="uploadFichero"/>
+			<s:text name='label'/>:<s:file name="uploadFichero" accept="application/pdf"/>
 			
 			<s:submit key="send"/>
 		</s:form>
